@@ -55,6 +55,7 @@ const getMasterserverGameserverList = () => {
         headers: { "Content-Type": "application/json" },
       }
     );
+    clientJoinRoomData;
 
     const responseFromServer = await response.json();
     if (responseFromServer.response == "MatchmakingServer authenticated") {

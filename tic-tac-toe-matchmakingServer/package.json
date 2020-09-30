@@ -4,7 +4,10 @@
   "description": "Matchmaking server for the cloud edition of Tic Tac Toe",
   "main": "matchmaking.js",
   "scripts": {
-    "test": "mocha --timeout 10000"
+    "test": "mocha --timeout 10000",
+    "startMasterserver": "cd ../tic-tac-toe-masterServer && node ./masterServer.js",
+    "startMatchmakingServer": "cd ../tic-tac-toe-matchmakingServer && node ./matchmaking.js --gameserverPort 6012 --frontendPort 6013 --masterServerAddress http://localhost:7010",
+    "testConfig": "start-server-and-test startMasterserver http://localhost:7010/serverList startMatchmakingServer http://localhost:6012/status test"
   },
   "author": "",
   "license": "ISC",
