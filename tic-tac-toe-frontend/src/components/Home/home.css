@@ -1,0 +1,105 @@
+.mainPage {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: auto;
+}
+
+.lastGamesPage {
+  grid-area: 1 / 6 / 2 / 8;
+  background-color: chartreuse;
+  height: 800px;
+  border: 5px solid black;
+  border-top: none;
+}
+
+.centerContent {
+  grid-area: 1 / 3 / 2 / 6;
+  /* background-color: aqua; */
+}
+
+.joinMatchmaking {
+  grid-area: 4 / 1 / 5 / 3;
+  /* background-color: brown; */
+  margin: auto;
+  margin-top: 20px;
+  width: fit-content;
+  padding: 20px;
+  border: 5px solid black;
+}
+
+.joinMatchmakingTextContent h2 {
+  text-align: center;
+}
+
+.joinMatchmakingLinkDiv {
+  width: fit-content;
+  margin: auto;
+}
+
+.joinLobby {
+  grid-area: 4 / 3 / 5 / 5;
+  /* background-color: red; */
+  margin: auto;
+  margin-top: 20px;
+  width: fit-content;
+  padding: 20px;
+  border: 5px solid black;
+}
+
+.joinLobbyTextContent h2 {
+  text-align: center;
+}
+
+.joinLobbyLinkDiv {
+  width: fit-content;
+  margin: auto;
+}
+
+.generalInformation {
+  text-align: center;
+  grid-area: 1 / 1 / 4 / 5;
+  /* background-color: grey; */
+  border: 5px solid black;
+  /* height: ; */
+  border-top: none;
+  /* border-right: none; */
+  padding-top: 30px;
+}
+
+.generalInformation h1 {
+  margin-top: 0;
+  font-size: 60px;
+}
+
+.generalInformation span {
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+#viewLobbiesButton {
+  font-size: 30px;
+  height: 60px;
+  color: white;
+  background-color: rgb(0, 22, 59);
+  border: none;
+}
+
+#joinMatchmakingButton {
+  font-size: 30px;
+  height: 60px;
+  color: white;
+  background-color: rgb(0, 22, 59);
+  border: none;
+}
+
+.playGameButtons {
+  /* background-color: blueviolet; */
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.strongText {
+  font-weight: bold;
+}

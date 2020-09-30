@@ -1,0 +1,30 @@
+.RoomListItem {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline-style: solid;
+    transition: transform .2s;
+}
+
+.RoomListItem:hover {
+    transform: scale(1.2);
+}
+
+.roomStatus,
+.roomPlayer,
+.roomSize,
+.roomStatusColor {
+    margin-right: 20px;
+}
+
+.roomPlayer {
+    float: right;
+}
+
+.roomStatusColor {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}

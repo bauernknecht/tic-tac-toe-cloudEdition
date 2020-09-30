@@ -1,0 +1,124 @@
+.mainPageForPlay {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+}
+
+.gameInformationPage {
+    /* background-color: darksalmon; */
+    grid-area: 1 / 4 / 2 / 6;
+    width: inherit;
+    height: fit-content;
+    display: grid;
+    margin-left: 5px;
+    border: 3px solid black;
+    border-top: none;
+}
+
+.gamePage {
+    grid-area: 1 / 1 / 2 / 4;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    /* border: 1px solid black; */
+    height: fit-content;
+}
+
+.gameInformation {
+    grid-area: 1 / 1 / 2 / 1;
+    height: fit-content;
+    border: 3px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.gameInformationContent {
+    margin: 120px 0 80px 20px;
+    text-align: center;
+}
+
+.gameInformationContent span {
+    font-size: 30px;
+}
+
+.gameInformationContent h1 {
+    font-size: 60px;
+}
+
+.gameArea {
+    grid-area: 1 / 2 / 6 / 5;
+    /* background-color: brown; */
+    width: 100%;
+    display: flex;
+    border: 5px solid black;
+    border-top: none;
+    height: fit-content;
+}
+
+.gameControl {
+    grid-area: 5 / 2 / 6 / 5;
+    background-color: red;
+}
+
+.statusStuff {
+    background-color: blue;
+}
+
+.square {
+    background: #fff;
+    border: 2px solid #999;
+    float: left;
+    font-size: 250px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 250px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 250px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    margin: auto;
+}
+
+.gameBoardControl {
+    margin: auto;
+    margin-top: 150px;
+}
+
+.gameBoardControl input {
+    margin: 30px 60px 30px 60px;
+    width: 180px;
+    height: 40px;
+    font-size: 22px;
+}
+
+#gameBoardControlNextRound {
+    float: left;
+}
+
+#gameBoardControlLeaveGame {
+    float: right;
+}
+
+.gameBoardHeading {
+    font-size: 34px;
+    text-align: center;
+}

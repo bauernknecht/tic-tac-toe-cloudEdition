@@ -1,0 +1,10 @@
+.RoomList {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+}
+
+.lobby {
+    margin-top: 10px;
+}

@@ -1,0 +1,11 @@
+.statusContainer {
+    display: flex;
+    font-size: 22px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.statusItem {
+    flex: 0 0 100px;
+}

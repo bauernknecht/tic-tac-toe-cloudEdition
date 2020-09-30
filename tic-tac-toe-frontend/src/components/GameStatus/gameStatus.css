@@ -1,0 +1,39 @@
+.gameStatusHeading {
+    text-align: center;
+}
+
+.gameStatusInformation {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.gameStatusHistory {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.statusContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gameStatusHistory::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.gameStatusHistory::-webkit-scrollbar {
+    width: 12px;
+    background-color: #f5f5f5;
+}
+
+.gameStatusHistory::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #555;
+}

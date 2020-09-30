@@ -1,0 +1,8 @@
+{
+  "name": "tic-tac-toe-cloudedition",
+  "scripts": {
+    "start-frontend": "npm start --prefix ./tic-tac-toe-frontend",
+    "start-matchmaking": "node ./tic-tac-toe-matchmaking/matchmaking.js",
+    "installAll": "(cd ./tic-tac-toe-frontend && npm install) && (cd ../tic-tac-toe-gameServer && npm install) && (cd ../tic-tac-toe-masterServer && npm install) && (cd ../tic-tac-toe-matchmakingServer && npm install)"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe-matchmakingserver",
+  "version": "1.0.0",
+  "description": "Matchmaking server for the cloud edition of Tic Tac Toe",
+  "main": "matchmaking.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-json": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "minimist": "^1.2.5",
+    "mocha": "^8.1.3",
+    "node-fetch": "^2.6.1",
+    "socket.io": "^2.3.0",
+    "start-server-and-test": "^1.11.4"
+  }
+}

@@ -1,0 +1,10 @@
+/training/node_modules
+/tic-tac-toe-frontend/node_modules
+/tic-tac-toe-frontend/.scannerwork
+/node_modules
+/tic-tac-toe-matchmakingServer/node_modules
+/tic-tac-toe-matchmakingServer/.scannerwork
+/tic-tac-toe-gameServer/node_modules
+/tic-tac-toe-gameServer/.scannerwork
+tic-tac-toe-masterServer/node_modules
+tic-tac-toe-masterServer/debugAPI-Requests.http
